@@ -1,0 +1,211 @@
+
+.more-button, .more-button:hover, .more-button:active,.more-button:focus
+{
+    border: 2px solid #14b510;
+    margin: 10px;
+    background-color: transparent;
+    color: #14b510;
+}
+.btn-services, .btn-services:hover,.btn-services:focus,.btn-services:active
+{
+    color: #14b510;
+}
+#footer
+{
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+}
+#footer h5
+{
+    color: #14b510;
+}
+#footer ul
+{
+    list-style: none;
+    margin: 0;
+}
+#footer a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.panel-category
+{
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+.panel-category > .panel-body li
+{
+    list-style: none;
+    margin: 9px;
+    margin-left: 0px;
+    color: #222222;
+}
+.panel-category .panel-footer
+{
+    background-color: #cccccc;
+    text-align: center;
+}
+.panel-category .panel-footer > a,.panel-category .panel-footer > a:active, .panel-category .panel-footer > a:focus
+{
+    color: green;
+}
+.panel-category .panel-footer > a:hover
+{
+    color: #ffffff;
+}
+.panel-category > .panel-heading
+{
+    color: #ffffff;
+}
+.panel-women .panel-heading
+{
+    background-color: purple;
+}
+.panel-men .panel-heading
+{
+    background-color: #245269;
+}
+.panel-phone .panel-heading
+{
+    background-color: red;
+}
+.panel-computer .panel-heading
+{
+    background-color: #31708f;
+}
+.category-separator
+{
+    border: 2px #000000 solid;
+    margin-bottom:0;
+    margin-top: 6px;
+}
+.product-item:hover, .product-item:focus, .product-item:active
+{
+    -webkit-box-shadow: -1px 0px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 21px 0px rgba(0,0,0,0.75);
+    border: 1px green solid;
+}
+.products-group
+{
+    background-color: #ffffff;
+}
+/*desktop*/
+@media (min-width: 992px) {
+    #main-container
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+        background-color: white;
+        -webkit-box-shadow: -1px 6px 21px 8px rgba(0,0,0,0.5);
+        -moz-box-shadow: -1px 6px 21px 8px rgba(0,0,0,0.5);
+        box-shadow: -1px 6px 21px 8px rgba(0,0,0,0.5);
+        padding: 10px;
+        border: 0px solid #000000;
+        overflow-x: hidden;
+    }
+    #logo-container
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5%
+    }
+    .custom-btn-small
+    {
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .custom-btn
+    {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .custom-row {
+        margin-right: -5px;
+        margin-left: -15px;
+    }
+    .products .custom-row
+    {
+        margin-right: -5px;
+        margin-left: 0px;
+    }
+    .custom-col
+    {
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    .products .custom-col
+    {
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 0px;
+    }
+    .navbar
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+/*mobile and tablet*/
+@media (max-width: 767px) {
+    #main-container
+    {
+        width: 100%;
+    }
+    .custom-btn-small
+    {
+        width: 100%;
+        padding: 5px;
+        font-size: 8px;
+    }
+    .custom-btn
+    {
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    #logo-container
+    {
+        width: 100%;
+    }
+    .custom-row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .custom-col
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 10px;
+    }
+    .products .custom-row
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .panel-category > .panel-heading > .panel-title
+    {
+        font-size: 10px;
+    }
+    .panel-category > .panel-body li
+    {
+        margin: 2px;
+    }
+    .panel-category > .panel-footer
+    {
+        display: none;
+    }
+    #footer
+    {
+        font-size: 11px;
+    }
+}

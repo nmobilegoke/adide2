@@ -1,0 +1,204 @@
+.search-input
+{
+    border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    border: 0px solid #000000;
+}
+#footer
+{
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+}
+#footer a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.category-separator
+{
+    border: 2px #000000 solid;
+    margin-bottom:0;
+    margin-top: 6px;
+}
+.product-item:hover, .product-item:focus, .product-item:active
+{
+    -webkit-box-shadow: -1px 0px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 21px 0px rgba(0,0,0,0.75);
+    border: 1px green solid;
+}
+.primary-background
+{
+    background-color: red;
+}
+.primary-color
+{
+    color: #ff0000;
+}
+#layer-1
+{
+    background-color: darkred;
+    padding:5px;
+    padding-right: 11%;
+    padding-left: 11%;
+    font-size: 10px;
+    color: #ffffff;
+}
+#layer-1 a:link, #layer-1 a:focus, #layer-1 a:active
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+#layer-2
+{
+    background-color: red;
+    padding:5px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#layer-2 a
+{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 2em;
+    font-size: 16px;
+}
+#layer3
+{
+    background-color: #fad60e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffa500), to(#fad60e));/*safari, chrome*/
+    background: -moz-linear-gradient(top, #ffa500, #fad60e);/*firefox*/
+    background: -o-linear-gradient(#ffa500, #fad60e);
+    background-image: linear-gradient(to bottom, #ffa500, #fad60e);
+    min-height: 15px;
+}
+.edges-circle
+{
+    border-radius: 20px;
+}
+.paddingless-right
+{
+    padding-right: 0px;
+}
+.paddingless-left
+{
+    padding-left: 0px;
+}
+/*desktop*/
+@media (min-width: 992px) {
+    #main-container
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding: 10px;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;;
+        overflow-x: hidden;
+    }
+    #logo-container
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5%
+    }
+    .custom-btn-small
+    {
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .custom-btn
+    {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .custom-row {
+        margin-right: -5px;
+        margin-left: -15px;
+    }
+    .products .custom-row
+    {
+        margin-right: -5px;
+        margin-left: 0px;
+    }
+    .custom-col
+    {
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    .products .custom-col
+    {
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 0px;
+    }
+    .navbar
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+/*mobile and tablet*/
+@media (max-width: 767px) {
+    #main-container
+    {
+        width: 100%;
+    }
+    .custom-btn-small
+    {
+        width: 100%;
+        padding: 5px;
+        font-size: 8px;
+    }
+    .custom-btn
+    {
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .custom-row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .custom-col
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 10px;
+    }
+    .products .custom-row
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #footer
+    {
+        font-size: 11px;
+    }
+}
+.promo
+{
+    position: relative;
+    bottom: 100px;
+    right: -60%;
+    border-radius: 50%;
+    width: 50px;
+    min-height: 50px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;;
+    padding: 3px;
+}
+.promo span
+{
+    font-weight: bold;
+    text-decoration: none;
+}

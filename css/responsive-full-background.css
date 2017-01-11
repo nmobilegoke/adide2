@@ -1,0 +1,27 @@
+body {
+  background-image: url(../images/bg.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:lightgrey;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* use different backgroun image for mobile device
+     * to improve page load speed on mobile device
+     */
+    background-image: url(../images/bg-mobile.png);
+  }
+}

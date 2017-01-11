@@ -1,0 +1,109 @@
+.input-group-addon
+{
+    color: #14b510;
+    background-color: #83c642;
+}
+.panel
+{
+    margin-bottom: 5px;
+}
+.panel-body
+{
+    padding: 5px;
+}
+.panel-heading
+{
+    padding: 10px;
+}
+.dropdown-menu
+{
+    z-index: 15;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+    background-color: transparent;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.carousel-indicators
+{
+    color: lightgreen;
+}
+.panel-body
+{
+    padding: 10px;
+}
+.btn-success
+{
+    color: #ffffff;
+}
+.pagination > li > a, .pagination > li > span {
+    color: #14b510;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #14b510;
+    border-color: #14b510;
+}
+.nav-tabs > li > a {
+    color: #ffffff;
+    background: #14b510;
+    background: -webkit-gradient(linear, left top, left bottom, from(#83c642), to(#14b510));/*safari, chrome*/
+    background: -moz-linear-gradient(top, #83c642, #14b510);/*firefox*/
+    background: -o-linear-gradient(#83c642, #14b510);
+    background-image: linear-gradient(to bottom, #83c642, #14b510);
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    background-color: green;
+    border-color: #83c642 #83c642 transparent;
+}
+.panel-success > .panel-heading
+{
+    color: #ffffff;
+    background: #14b510;
+    background: -webkit-gradient(linear, left top, left bottom, from(#83c642), to(#14b510));/*safari, chrome*/
+    background: -moz-linear-gradient(top, #83c642, #14b510);/*firefox*/
+    background: -o-linear-gradient(#83c642, #14b510);
+    background-image: linear-gradient(to bottom, #83c642, #14b510);
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #83c642;
+}
+.panel
+{
+    background: rgba(255, 255, 255, 0.6);
+}
+.table th, .table td {
+    border-top: none !important;
+}
+table td {
+    border-top: none !important;
+}
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    /*padding-right: 5px;*/
+    /*padding-left: 5px;*/
+}
+.dropdown-menu {
+    background-color: rgba(255, 255, 255,0.6);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+.btn-warning
+{
+    background: #fad60e;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);/*firefox*/
+    webkit-box-shadow: 0 1px 3px rgba(0, 0,0 , 0.4);/*safari, chrome*/
+    box-shadow: 0 1px 3px rgba(0,0, 0, 0.4); /*others*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffa500), to(#fad60e));/*safari, chrome*/
+    background: -moz-linear-gradient(top, #ffa500, #fad60e);/*firefox*/
+    background: -o-linear-gradient(#ffa500, #fad60e);
+    background-image: linear-gradient(to bottom, #ffa500, #fad60e);
+}
